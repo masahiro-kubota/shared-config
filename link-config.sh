@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SHARED_DIR=".config-shared"
+SHARED_DIR=".shared-config"
 
 find "$SHARED_DIR" -mindepth 1 \
      \( -type f -o -type l -o -type d \) \
